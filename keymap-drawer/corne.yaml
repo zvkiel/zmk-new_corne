@@ -162,7 +162,7 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv MOVE 600 600'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -178,7 +178,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
-  - '&mmv MOVE -500 -500'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
