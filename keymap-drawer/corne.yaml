@@ -154,7 +154,7 @@ layers:
   - F3
   - F4
   - F5
-  - '&msc SCROLL_UP'
+  - $$mdi:pan-up$$
   - F6
   - F7
   - F8
@@ -167,7 +167,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
-  - '&msc SCROLL_DOWN'
+  - $$mdi:pan-down$$
   - $$mdi:progress-download$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -180,7 +180,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - '&msc SCROLL_LEFT'
+  - '&msc SCROL_LEFT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
@@ -191,7 +191,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - '&msc SCROLL_RIGHT'
+  - '&msc SCROL_RIGHT'
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
