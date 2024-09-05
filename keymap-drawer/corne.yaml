@@ -20,7 +20,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-down-bold$$
+  - '&msc SCROLL_UP'
   - H
   - J
   - K
@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&mmv MOVE -600 -600'
   lower:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
