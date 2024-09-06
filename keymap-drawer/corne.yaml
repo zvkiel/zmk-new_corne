@@ -80,7 +80,7 @@ layers:
   - RGB OFF
   - RGB ON
   - EP OFF
-  - EP ON
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFF
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - RGB EFR
