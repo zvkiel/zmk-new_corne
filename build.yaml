@@ -1,6 +1,5 @@
 include:
-  - board: corne_left
-  - board: corne_right
+ 
   - board: nice_nano_v2
     shield: settings_reset
   - board: corne_left
