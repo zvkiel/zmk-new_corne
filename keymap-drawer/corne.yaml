@@ -43,10 +43,10 @@ layers:
   - $$mdi:keyboard-space$$
   - LGUI
   - lower
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:keyboard-space$$', h: '3'}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
+  - {t: '$$mdi:keyboard-return$$', h: '3'}
+  - raise
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   lower:
@@ -98,7 +98,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  SYMBOL:
+  raise:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  Fn:
+  '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
