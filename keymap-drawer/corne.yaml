@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-up-bold$$
+  - '&msc SCROLL_LEFT'
   - Y
   - U
   - I
