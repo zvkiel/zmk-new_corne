@@ -49,7 +49,7 @@ rgb_encoder: rgb_encoder {
 
             tap-ms = <30>;
         };
-    };
+    
     keymap {
         compatible = "zmk,keymap";
 
