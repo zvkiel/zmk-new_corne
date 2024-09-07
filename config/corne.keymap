@@ -35,7 +35,21 @@
             delay-ms = <0>;                   // 10
         };
     };
+rgb_encoder: rgb_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_ENCODER";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+        };
 
+        scroll_encoder: scroll_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <30>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
@@ -79,7 +93,7 @@
             >;
 
             label = "NUMBER";
-            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+            sensor-bindings = <&rgb_encoder >;
         };
 
         raise_layer {
@@ -100,7 +114,7 @@
             >;
 
             label = "SYMBOL";
-            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -114,7 +128,7 @@
             >;
 
             label = "FN";
-            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
