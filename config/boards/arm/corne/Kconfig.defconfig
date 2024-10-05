@@ -67,4 +67,13 @@ endchoice
 endif
 
 endif # BOARD_CORNE_LEFT || BOARD_CORNE_RIGHT
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
 
