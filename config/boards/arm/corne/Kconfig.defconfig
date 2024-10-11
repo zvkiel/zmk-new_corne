@@ -19,6 +19,12 @@ if BOARD_CORNE_LEFT || BOARD_CORNE_RIGHT
 config BOARD
     default "corne"
 
+config BOARD_ENABLE_DCDC
+    bool "Enable DCDC mode"
+    select SOC_DCDC_NRF52X
+    default y
+    depends on BOARD_corne
+
 config ZMK_SPLIT
     default y
 
