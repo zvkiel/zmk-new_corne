@@ -11,8 +11,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "corne";
-    compatible = "corne";
+    model = "eyelash_corne";
+    compatible = "eyelashperipherals,eyelash_corne";
 
     chosen {
         zephyr,code-partition = &code_partition;
