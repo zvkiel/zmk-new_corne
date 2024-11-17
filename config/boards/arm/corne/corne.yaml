@@ -7,7 +7,6 @@ toolchain:
   - zephyr
   - gnuarmemb
   - xtools
-ram: 40
 supported:
   - adc
   - usb_device
@@ -16,5 +15,4 @@ supported:
   - pwm
   - watchdog
   - gpio
-  - i2c
   - spi
