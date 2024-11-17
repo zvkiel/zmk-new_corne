@@ -7,9 +7,6 @@
 #include "corne.dtsi"
 
 /{
-    chosen {
-        zmk,battery = &vbatt;
-    };
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
@@ -34,17 +31,6 @@
             ;
     };
 
-    ext-power {
-        compatible = "zmk,ext-power-generic";
-        label = "EXT_POWER";
-        control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
-         init-delay-ms = <50>;
-    };
-
-     vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
-       init-delay-ms = <50>;
-    };
 
 };
 &default_transform {
