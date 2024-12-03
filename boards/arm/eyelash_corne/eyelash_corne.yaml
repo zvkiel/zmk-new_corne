@@ -1,13 +1,12 @@
-identifier: corne
-name: Solfe
-url: https://github.com/tokyo2006/zmk-config-corne
+identifier: eyelash_corne
+name: Eyelash Corne
+url: https://github.com/a741725193/zmk-new_corne
 type: mcu
 arch: arm
 toolchain:
   - zephyr
   - gnuarmemb
   - xtools
-ram: 40
 supported:
   - adc
   - usb_device
@@ -16,5 +15,4 @@ supported:
   - pwm
   - watchdog
   - gpio
-  - i2c
   - spi
