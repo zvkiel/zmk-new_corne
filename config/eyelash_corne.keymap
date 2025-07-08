@@ -56,10 +56,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I     &kp O  &kp P     &kp BSPC
-&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N  &kp K     &kp L  &kp T     &kp SINGLE_QUOTE
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp J        &kp M  &kp Y     &kp B  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 4 ENTER  &mo 2  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y            &kp U  &kp I      &kp O       &kp P             &kp BSPC
+&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &kp J  &kp K      &kp L       &kp SINGLE_QUOTE  &kp N
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N            &kp M  &kp COMMA  &kp PERIOD  &kp FSLH          &kp ESC
+                         &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 4 BACKSPACE  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -103,10 +103,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &kp BACKSPACE                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &kp ENTER                                    &trans  &trans  &trans
             >;
         };
     };
