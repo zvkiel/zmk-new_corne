@@ -6,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - F
+  - T
   - $$mdi:arrow-up-bold$$
   - Y
   - U
@@ -18,7 +18,7 @@ layers:
   - A
   - S
   - D
-  - T
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - {t: '4', h: '$$mdi:gesture-tap-hold$$'}
+  - T
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -224,7 +224,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: '$$mdi:gesture-tap-hold$$', type: held}
+  - {t: QWERTY, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -242,7 +242,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Alt+$$mdi:backspace$$', type: backspace}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '5':
