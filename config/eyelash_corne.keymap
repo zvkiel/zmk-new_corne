@@ -103,10 +103,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &trans              &kp UP_ARROW    &trans               &trans                               &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 0
-&trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans          &trans               &kp LA(BACKSPACE)                                    &trans  &trans  &trans
+&trans  &trans          &trans              &kp UP_ARROW    &trans               &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 0
+&trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans          &trans               &kp BACKSPACE                                    &trans  &trans  &trans
             >;
         };
 
