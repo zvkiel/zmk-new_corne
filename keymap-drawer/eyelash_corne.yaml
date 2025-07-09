@@ -6,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - F
   - $$mdi:arrow-up-bold$$
   - Y
   - U
@@ -18,13 +18,13 @@ layers:
   - A
   - S
   - D
-  - F
+  - T
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - J
+  - N
   - K
   - L
   - {t: '''', s: '"'}
@@ -37,7 +37,7 @@ layers:
   - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
+  - J
   - M
   - {t: ',', s: <}
   - .
