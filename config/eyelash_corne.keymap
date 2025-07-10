@@ -50,6 +50,15 @@
         tap-ms = <100>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <45 44>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -57,7 +66,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y         &kp U  &kp I      &kp O       &kp P             &kp BSPC
-&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &kp N  &kp K      &kp L       &kp SINGLE_QUOTE  &kp T
+&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &kp N  &kp K      &kp L       &kp SINGLE_QUOTE  &kp RIGHT_SHIFT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp J         &kp M  &kp COMMA  &kp PERIOD  &kp FSLH          &kp ESC
                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 4 RETURN  &mo 2  &kp RALT
             >;
@@ -103,7 +112,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &trans              &kp UP_ARROW    &trans               &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sl 0
 &trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans          &trans               &kp BACKSPACE                                    &trans  &trans  &trans
