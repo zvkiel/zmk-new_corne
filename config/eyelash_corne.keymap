@@ -57,6 +57,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <45 44>;
         };
+
+        Escape {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
