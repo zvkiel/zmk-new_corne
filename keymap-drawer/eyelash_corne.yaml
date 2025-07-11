@@ -395,3 +395,5 @@ layers:
 combos:
 - p: [45, 44]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [1, 2]
+  k: $$mdi:keyboard-esc$$
