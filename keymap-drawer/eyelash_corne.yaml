@@ -44,7 +44,7 @@ layers:
   - {t: /, h: Fn, s: '?'}
   - {t: ;, s: ':'}
   - LGUI
-  - NUMBER
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '7'}
   - {t: RETURN, h: '4'}
   - SYMBOL
@@ -93,7 +93,7 @@ layers:
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
