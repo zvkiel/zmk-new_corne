@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - {t: '7', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -42,10 +42,10 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, h: Fn, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - {t: ;, s: ':'}
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '7'}
   - {t: RETURN, h: '4'}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
@@ -420,7 +420,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: '$$mdi:gesture-tap-hold$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -438,6 +437,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
