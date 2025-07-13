@@ -118,7 +118,7 @@
         layer_4 {
             bindings = <
 &trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans            &trans  &trans  &trans  &trans  &mo 7   &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans            &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
 &trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans          &trans               &trans                                    &trans  &trans  &trans
             >;
@@ -154,7 +154,7 @@
         layer_8 {
             bindings = <
 &trans  &trans          &kp LG(UP_ARROW)  &kp UP_ARROW    &kp LG(DOWN)     &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans  &trans  &trans  &trans  &mo 7   &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans            &kp LG(C)       &kp LG(V)        &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans          &trans           &trans                                    &trans  &trans  &trans
             >;
