@@ -44,24 +44,7 @@
         tap-ms = <100>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        Backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <45 44>;
-        };
-
-        Escape {
-            bindings = <&kp ESC>;
-            key-positions = <1 2>;
-        };
-
-        WordBackspace {
-            bindings = <&kp LA(BACKSPACE)>;
-            key-positions = <45 44 27>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -69,10 +52,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E     &kp R    &kp T                               &kp UP                &kp Y         &kp U  &kp I      &kp O       &kp P             &kp BSPC
-&sk LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F    &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &kp N  &kp K      &kp L       &kp SINGLE_QUOTE  &sk RIGHT_SHIFT
-&kp LCTRL       &kp Z  &kp X  &kp C     &kp V    &kp B        &kp SPACE              &kp DOWN              &kp J         &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH       &kp SEMI
-                              &kp LGUI  &kp TAB  &lt 8 SPACE                                               &lt 4 RETURN  &mo 2  &kp RALT
+&kp TAB         &kp Q  &kp W  &kp E     &kp R           &kp T                             &kp UP                &kp Y  &kp U           &kp I      &kp O       &kp P      &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F           &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H  &kp N           &kp K      &kp L       &kp SEMI   &kp SINGLE_QUOTE
+&kp LEFT_GUI    &kp Z  &kp X  &kp C     &kp V           &kp B      &kp SPACE              &kp DOWN              &kp J  &kp M           &kp COMMA  &kp PERIOD  &kp SLASH  &kp ESCAPE
+                              &kp LGUI  &kp LEFT_SHIFT  &kp SPACE                                               &mo 4  &kp LEFT_SHIFT  &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -108,7 +91,7 @@
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
 &trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+                                       &trans       &trans     &trans                                                                   &mo 4        &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -116,46 +99,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans            &trans  &trans  &trans  &trans  &mo 7   &trans  &trans  &trans  &trans
-&trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans          &trans               &trans                                    &trans  &trans  &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans      &trans  &trans     &trans                    &trans          &trans  &trans                &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp BACKSLASH  &trans
-&trans  &mo 8   &kp PERIOD  &trans  &kp UNDER  &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &trans            &trans          &kp SEMI       &kp SINGLE_QUOTE
-&trans  &trans  &trans      &trans  &trans     &trans  &trans            &trans          &trans  &trans                &trans            &trans          &trans         &trans
-                            &trans  &trans     &trans                                    &trans  &trans                &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
-        };
-
-        layer_8 {
-            bindings = <
-&trans  &trans          &kp LG(LA(LEFT))  &kp UP_ARROW    &kp LG(LA(RIGHT))  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans            &kp LG(C)       &kp LG(V)          &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans          &trans             &trans                                    &trans  &trans  &trans
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans            &trans     &kp PERIOD  &trans     &trans                           &trans          &trans  &trans          &trans  &trans  &trans  &trans
+&trans  &kp SINGLE_QUOTE  &kp COMMA  &kp SLASH   &kp ENTER  &trans                   &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans
+&trans  &trans            &trans     &trans      &trans     &trans         &trans            &trans          &trans  &trans          &trans  &trans  &trans  &trans
+                                     &trans      &trans     &kp BACKSPACE                                    &trans  &trans          &trans
             >;
         };
     };
