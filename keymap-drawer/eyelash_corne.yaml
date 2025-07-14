@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - A
   - S
   - D
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: '''', s: '"'}
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -446,3 +446,5 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [1, 2]
   k: $$mdi:keyboard-esc$$
+- p: [45, 44, 27]
+  k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
