@@ -44,6 +44,15 @@
         tap-ms = <100>;
     };
 
+    new_behavior: new_behavior {
+        compatible = "zmk,behavior-sticky-key";
+        label = "NEW_BEHAVIOR";
+        bindings = <&kp>;
+        #binding-cells = <1>;
+        quick-release;
+        release-after-ms = <1000>;
+    };
+
     combos { compatible = "zmk,combos"; };
 
     keymap {
