@@ -108,10 +108,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                               &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans                       &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
-&trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans          &trans               &kp LA(BACKSPACE)                                    &trans  &trans  &trans
+&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans                   &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans          &trans               &kp BACKSPACE                                    &trans  &trans  &trans
             >;
         };
 
@@ -144,10 +144,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans          &kp LG(LA(LEFT))  &kp UP_ARROW    &kp LG(LA(RIGHT))  &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans            &kp LG(C)       &kp LG(V)          &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans          &trans             &kp BACKSPACE                                    &trans  &trans  &trans
+&trans  &trans          &kp LG(LA(LEFT))  &kp UP_ARROW    &kp LG(LA(RIGHT))  &trans                               &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans                       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans            &kp LG(C)       &kp LG(V)          &trans             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans          &trans             &kp LA(BACKSPACE)                                    &trans  &trans  &trans
             >;
         };
 
@@ -157,15 +157,6 @@
 &trans  &kp LG(T)  &kp LG(L)  &trans     &kp RG(F)  &kp LG(LS(A))            &trans  &trans  &trans  &trans  &kp F7         &trans  &trans  &trans  &trans
 &trans  &trans     &trans     &trans     &trans     &trans         &trans            &trans          &trans  &trans         &trans  &trans  &trans  &trans
                               &trans     &trans     &trans                                           &kp F6  &kp LG(SPACE)  &trans
-            >;
-        };
-
-        layer_10 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
     };
