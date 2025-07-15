@@ -125,10 +125,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp SLASH                            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp COMMA  &kp PERIOD        &kp SEMI              &kp UNDER       &kp DOUBLE_QUOTES            &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
-&trans  &trans     &trans            &trans                &trans          &trans             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                     &trans                &trans          &trans                                               &trans  &trans  &trans
+&trans  &trans     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp SLASH                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp COMMA  &kp PERIOD        &kp GREATER_THAN      &kp UNDER       &kp EQUAL            &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&trans  &trans     &trans            &trans                &trans          &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans                &trans          &trans                                       &trans  &trans  &trans
             >;
         };
 
@@ -156,6 +156,15 @@
 &trans  &kp LG(LS(A))  &kp LG(L)  &trans     &kp RG(F)  &trans            &trans  &trans  &trans  &trans  &kp F7  &trans  &trans  &trans  &trans
 &trans  &trans         &trans     &trans     &trans     &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                   &trans     &trans     &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp SLASH                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp COMMA  &kp PERIOD        &kp LESS_THAN         &kp MINUS       &kp PLUS             &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&trans  &trans     &trans            &trans                &trans          &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                     &trans                &trans          &trans                                       &trans  &trans  &trans
             >;
         };
     };
