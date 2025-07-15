@@ -61,9 +61,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E     &kp R    &kp T                               &kp UP                &kp Y         &kp U  &kp I      &kp O       &kp P             &kp BSPC
-&sk LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F    &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &kp N  &kp K      &kp L       &kp SINGLE_QUOTE  &kp ESCAPE
-&kp LCTRL       &kp Z  &kp X  &kp C     &kp V    &kp B        &kp SPACE              &kp DOWN              &kp J         &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH       &kp LALT
+&kp ESCAPE      &kp Q  &kp W  &kp E     &kp R    &kp T                               &kp UP                &kp Y         &kp U  &kp I      &kp O         &kp P             &kp BSPC
+&sk LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F    &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &kp N  &kp K      &kp L         &kp SINGLE_QUOTE  &kp ESCAPE
+&kp LCTRL       &kp Z  &kp X  &kp C     &kp V    &kp B        &kp SPACE              &kp DOWN              &kp J         &kp M  &kp COMMA  &lt 1 PERIOD  &lt 3 SLASH       &kp LALT
                               &kp LGUI  &kp TAB  &lt 9 SPACE                                               &lt 4 RETURN  &mo 5  &mo 7
             >;
 
@@ -108,10 +108,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &kp LG(V)                &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
-&trans  &trans          &trans              &trans          &kp LG(C)            &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans          &trans               &kp BACKSPACE                                    &trans  &trans  &trans
+&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &kp LG(V)            &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&trans  &trans          &trans              &trans          &kp LG(C)            &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans          &trans               &kp F6                                       &trans  &trans  &trans
             >;
         };
 
@@ -120,7 +120,7 @@
 &kp BACKSLASH  &kp ASTERISK  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp DOUBLE_QUOTES                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans         &kp COMMA     &kp PERIOD        &kp LESS_THAN         &kp UNDER       &kp EQUAL                    &trans  &trans  &trans  &trans  &mo 6   &trans  &trans  &trans  &trans
 &trans         &trans        &trans            &trans                &trans          &trans             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                               &trans                &kp LG(SPACE)   &kp F7                                               &trans  &trans  &trans
+                                               &trans                &trans          &trans                                               &trans  &trans  &trans
             >;
         };
 
@@ -153,10 +153,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans     &trans     &kp LG(T)  &trans     &trans                           &trans          &trans  &trans         &kp F8  &kp F9  &trans  &trans
-&trans  &kp LG(T)  &kp LG(L)  &trans     &kp RG(F)  &kp LG(LS(A))            &trans  &trans  &trans  &trans  &kp F7         &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans         &trans            &trans          &trans  &trans         &trans  &trans  &trans  &trans
-                              &trans     &trans     &trans                                           &kp F6  &kp LG(SPACE)  &trans
+&trans  &trans     &trans     &kp LG(T)  &trans     &trans                           &trans          &trans         &trans             &kp F8  &kp F9  &trans  &trans
+&trans  &kp LG(T)  &kp LG(L)  &trans     &kp RG(F)  &kp LG(LS(A))            &trans  &trans  &trans  &trans         &kp F7             &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans         &trans            &trans          &trans         &trans             &trans  &trans  &trans  &trans
+                              &trans     &trans     &trans                                           &kp BACKSPACE  &kp LA(BACKSPACE)  &trans
             >;
         };
     };
