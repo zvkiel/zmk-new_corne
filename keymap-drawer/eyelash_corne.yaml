@@ -42,13 +42,13 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, h: Fn, s: '?'}
-  - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '7'}
   - {t: RETURN, h: '4'}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - '5'
+  - '6'
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -142,10 +142,10 @@ layers:
   - '|'
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
+  - Gui+$$mdi:keyboard-space$$
+  - F6
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   '6':
   - {t: '$$mdi:transfer$$', type: trans}
@@ -342,7 +342,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   '8':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -439,11 +439,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   '9':
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
+  - '&'
   - {t: ']', s: '}'}
   - )
   - '}'
@@ -490,10 +490,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [45, 44]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [1, 2]
-  k: $$mdi:keyboard-esc$$
-- p: [45, 44, 27]
-  k: {t: 'Alt+$$mdi:backspace$$', type: backspace}
