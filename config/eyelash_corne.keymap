@@ -69,10 +69,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R    &kp T                               &kp UP                &kp Y         &kp U  &kp I      &kp O       &kp P             &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D     &kp F    &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &kp N  &kp K      &kp L       &kp SINGLE_QUOTE  &sk RIGHT_SHIFT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V    &kp B        &kp SPACE              &kp DOWN              &kp J         &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH       &kp SEMI
-                         &kp LGUI  &kp TAB  &lt 8 SPACE                                               &lt 4 RETURN  &mo 2  &kp RALT
+&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R           &kp T                               &kp UP                &kp Y         &kp U  &kp I      &kp O       &kp P             &kp BSPC
+&kp TAB     &kp A  &kp S  &kp D     &kp F           &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H         &kp N  &kp K      &kp L       &kp SINGLE_QUOTE  &kp ESCAPE
+&kp LCTRL   &kp Z  &kp X  &kp C     &kp V           &kp B        &kp SPACE              &kp DOWN              &kp J         &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH       &kp SEMI
+                          &kp LGUI  &kp LEFT_SHIFT  &lt 8 SPACE                                               &lt 4 RETURN  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -125,19 +125,19 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans      &trans  &trans     &trans                    &trans          &trans  &trans                &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp BACKSLASH  &trans
-&trans  &mo 8   &kp PERIOD  &trans  &kp UNDER  &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &trans            &trans          &kp SEMI       &kp SINGLE_QUOTE
-&trans  &trans  &trans      &trans  &trans     &trans  &trans            &trans          &trans  &trans                &trans            &trans          &trans         &trans
-                            &trans  &trans     &trans                                    &trans  &trans                &trans
+&trans  &trans     &trans      &kp LEFT_PARENTHESIS  &trans     &trans                    &trans          &trans  &trans                &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp BACKSLASH  &trans
+&trans  &kp COMMA  &kp PERIOD  &trans                &kp UNDER  &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &trans            &trans          &kp SEMI       &kp SINGLE_QUOTE
+&trans  &trans     &trans      &trans                &trans     &trans  &trans            &trans          &trans  &trans                &trans            &trans          &trans         &trans
+                               &trans                &trans     &trans                                    &trans  &trans                &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp COMMA                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0  &kp N4  &kp N5  &kp N6  &kp PERIOD            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans      &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                        &trans  &trans  &trans
             >;
         };
 
