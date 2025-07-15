@@ -40,7 +40,7 @@ layers:
   - J
   - M
   - {t: ',', s: <}
-  - .
+  - {t: ., h: NUMBER}
   - {t: /, h: Fn, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - LGUI
@@ -89,7 +89,7 @@ layers:
   - RGB EFR
   - RGB SPI
   - RGB BRI
-  - RGB BRD
+  - {t: RGB BRD, type: held}
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
@@ -241,7 +241,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - F6
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -289,8 +289,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+$$mdi:keyboard-space$$
-  - F7
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -487,6 +487,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - F6
-  - {t: 'Gui+$$mdi:keyboard-space$$', type: held alternate}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: 'Alt+$$mdi:backspace$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
