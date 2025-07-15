@@ -126,10 +126,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans      &trans  &trans   &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp ESCAPE  &trans  &kp RET  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans  &trans   &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans  &trans   &kp BACKSPACE                                    &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans   &trans                           &trans          &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &kp ESCAPE  &trans  &kp RET  &trans                   &trans  &trans  &trans  &trans  &kp LALT  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans   &trans         &trans            &trans          &trans  &trans    &trans  &trans  &trans  &trans
+                            &trans  &trans   &kp BACKSPACE                                    &trans  &trans    &trans
             >;
         };
     };
