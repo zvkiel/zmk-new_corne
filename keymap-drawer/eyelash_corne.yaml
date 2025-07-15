@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '6'
   - $$mdi:apple-keyboard-shift$$
-  - QWERTY
+  - LMETA
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
