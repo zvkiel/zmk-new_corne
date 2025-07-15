@@ -487,6 +487,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - F6
+  - {t: 'Gui+$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
