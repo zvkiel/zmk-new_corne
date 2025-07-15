@@ -125,10 +125,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &trans      &kp LEFT_PARENTHESIS  &trans     &trans                    &trans          &trans  &trans                &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp BACKSLASH  &trans
-&trans  &kp COMMA  &kp PERIOD  &trans                &kp UNDER  &trans            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &trans            &trans          &kp SEMI       &kp SINGLE_QUOTE
-&trans  &trans     &trans      &trans                &trans     &trans  &trans            &trans          &trans  &trans                &trans            &trans          &trans         &trans
-                               &trans                &trans     &trans                                    &trans  &trans                &trans
+&trans  &trans     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &trans                               &trans          &trans  &trans                &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp BACKSLASH  &trans
+&trans  &kp COMMA  &kp PERIOD        &kp SEMI              &kp UNDER       &kp DOUBLE_QUOTES            &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &trans            &trans          &kp SEMI       &kp SINGLE_QUOTE
+&trans  &trans     &trans            &trans                &trans          &trans             &trans            &trans          &trans  &trans                &trans            &trans          &trans         &trans
+                                     &trans                &trans          &trans                                               &trans  &trans                &trans
             >;
         };
 
