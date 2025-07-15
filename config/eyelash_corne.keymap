@@ -109,8 +109,8 @@
         layer_4 {
             bindings = <
 &trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &trans                   &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
-&trans  &trans          &trans              &kp LG(C)       &kp LG(V)            &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &kp LG(V)                &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&trans  &trans          &trans              &trans          &kp LG(C)            &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans          &trans               &kp BACKSPACE                                    &trans  &trans  &trans
             >;
         };
