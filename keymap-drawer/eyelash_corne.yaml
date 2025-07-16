@@ -47,7 +47,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '7'}
   - {t: RETURN, h: '4'}
-  - '5'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - QWERTY
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -296,11 +296,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '5':
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $
   - {t: '[', s: '{'}
   - (
   - '{'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -313,7 +313,7 @@ layers:
   - .
   - <
   - _
-  - '*'
+  - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -328,7 +328,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -341,7 +341,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - QWERTY
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '9':
   - '|'
@@ -377,6 +377,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
+  - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -387,10 +388,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   '7':
   - {t: '$$mdi:transfer$$', type: trans}
@@ -439,7 +439,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - Gui+$$mdi:keyboard-space$$
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '10':
   - {t: '$$mdi:transfer$$', type: trans}
