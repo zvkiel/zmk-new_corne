@@ -126,19 +126,19 @@
 
         layer_5 {
             bindings = <
-&kp BACKSLASH  &kp ASTERISK  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp DOUBLE_QUOTES                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &kp COMMA     &kp PERIOD        &kp LESS_THAN         &kp UNDER       &kp EQUAL                    &trans  &trans  &trans  &trans  &sl 7   &trans  &trans  &trans  &trans
-&trans         &trans        &trans            &trans                &trans          &trans             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                               &trans                &trans          &trans                                               &mo 0   &trans  &trans
+&kp BACKSLASH  &kp ASTERISK  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE     &kp SLASH                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp SLASH      &kp COMMA     &kp PERIOD        &kp LESS_THAN         &kp UNDER          &kp EQUAL            &trans  &trans  &trans  &trans  &sl 7   &trans  &trans  &trans  &trans
+&trans         &trans        &trans            &trans                &kp DOUBLE_QUOTES  &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                               &trans                &trans             &trans                                       &mo 0   &trans  &trans
             >;
         };
 
         layer_9 {
             bindings = <
-&kp PIPE  &kp AMPERSAND  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp SINGLE_QUOTE                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &kp SEMI       &kp COLON          &kp GREATER_THAN       &kp MINUS          &kp PLUS                    &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
-&trans    &trans         &trans             &trans                 &kp LG(BACKSLASH)  &trans            &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans                 &trans             &trans                                              &trans  &trans  &trans
+&kp PIPE  &kp AMPERSAND  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp STAR                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp PIPE  &kp SEMI       &kp COLON          &kp GREATER_THAN       &kp MINUS          &kp PLUS            &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&trans    &trans         &trans             &trans                 &kp LG(BACKSLASH)  &trans    &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans                 &trans             &trans                                      &trans  &trans  &trans
             >;
         };
 
