@@ -108,8 +108,8 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &kp LG(SLASH)                        &trans          &trans  &trans  &trans  &kp F6  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &kp LG(V)                    &trans  &trans  &trans  &trans  &mo 5   &trans  &trans  &trans  &trans
+&trans  &trans          &kp LG(LEFT)        &kp UP_ARROW    &kp LG(RIGHT_ARROW)  &kp LG(SLASH)                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp DOWN_ARROW  &kp LA(RIGHT_ARROW)  &kp LG(V)                    &trans  &trans  &trans  &trans  &mo 5   &trans  &trans  &trans  &kp LALT
 &trans  &trans          &trans              &trans          &kp LG(C)            &trans             &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans          &trans               &kp LA(BACKSPACE)                                    &trans  &trans  &trans
             >;
@@ -126,19 +126,19 @@
 
         layer_5 {
             bindings = <
-&kp BACKSLASH  &trans     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE     &trans                       &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp EXCL       &kp COMMA  &kp PERIOD        &kp LESS_THAN         &kp UNDER          &kp STAR             &trans  &trans  &trans  &trans  &sl 7   &trans  &trans  &trans  &trans
-&trans         &trans     &trans            &trans                &kp DOUBLE_QUOTES  &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans                &trans             &kp EQUAL                                    &mo 0   &trans  &trans
+&kp BACKSLASH  &trans     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE     &trans                      &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp EXCL       &kp COMMA  &kp PERIOD        &kp LESS_THAN         &kp UNDER          &kp STAR            &trans  &trans  &trans  &trans  &sl 7   &trans  &trans  &trans  &trans
+&trans         &trans     &trans            &trans                &kp DOUBLE_QUOTES  &trans    &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans                &trans             &kp F6                                      &mo 0   &trans  &trans
             >;
         };
 
         layer_9 {
             bindings = <
-&kp PIPE      &kp AMPERSAND  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE       &trans                      &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp QUESTION  &kp SEMI       &kp COLON          &kp GREATER_THAN       &kp MINUS             &kp PLUS            &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
-&trans        &trans         &trans             &trans                 &kp LG(SINGLE_QUOTE)  &trans    &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                                &trans                 &trans                &trans                                      &trans  &trans  &trans
+&kp PIPE      &kp AMPERSAND  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp ASTRK                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp QUESTION  &kp SEMI       &kp COLON          &kp GREATER_THAN       &kp EQUAL         &kp PLUS             &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&trans        &trans         &trans             &trans                 &kp SINGLE_QUOTE  &trans     &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans                 &trans            &trans                                       &trans  &trans  &trans
             >;
         };
 
