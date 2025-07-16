@@ -118,7 +118,7 @@
         layer_8 {
             bindings = <
 &trans  &trans          &kp LG(LA(LEFT))  &kp UP_ARROW    &kp LG(LA(RIGHT))  &trans                           &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LG(SLASH)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans            &kp LG(C)       &kp LG(V)          &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans          &trans             &kp BACKSPACE                                    &trans  &trans  &trans
             >;
@@ -128,7 +128,7 @@
             bindings = <
 &kp BACKSLASH  &kp DOLLAR  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE     &kp SLASH                      &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &kp EXCL       &kp COMMA   &kp PERIOD        &kp LESS_THAN         &kp UNDER          &kp MINUS              &trans  &trans  &trans  &trans  &sl 7   &trans  &trans  &trans  &trans
-&trans         &trans      &trans            &trans                &kp DOUBLE_QUOTES  &kp PERCENT  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans      &trans            &kp POUND             &kp DOUBLE_QUOTES  &kp PERCENT  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                              &trans                &trans             &kp F6                                         &mo 9   &trans  &trans
             >;
         };
@@ -137,7 +137,7 @@
             bindings = <
 &kp PIPE      &kp AMPERSAND  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp ASTRK                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &kp QUESTION  &kp SEMI       &kp COLON          &kp GREATER_THAN       &kp EQUAL         &kp PLUS             &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
-&trans        &trans         &trans             &trans                 &kp SINGLE_QUOTE  &kp CARET  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans         &trans             &kp AT                 &kp SINGLE_QUOTE  &kp CARET  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                                 &trans                 &trans            &kp F6                                       &mo 9   &trans  &trans
             >;
         };
