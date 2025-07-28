@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., h: NUMBER}
   - {t: /, h: Fn, s: '?'}
-  - $$mdi:apple-keyboard-option$$
+  - SYMBOL
   - LGUI
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
@@ -140,7 +140,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - '~'
+  - {t: '~', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:keyboard-space$$
   - F6
