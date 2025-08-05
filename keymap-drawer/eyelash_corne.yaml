@@ -199,9 +199,9 @@ layers:
   '4':
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Gui+Sft+Z
-  - Gui+$$mdi:arrow-left-bold$$
+  - HOME
   - $$mdi:arrow-up-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
+  - END
   - {t: Gui+/, s: 'Gui+?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
