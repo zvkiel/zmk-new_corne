@@ -197,8 +197,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - Gui+Sft+Z
+  - Ctl+Z
+  - Ctl+Y
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
@@ -215,7 +215,7 @@ layers:
   - Ctl+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -229,7 +229,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - Ctl+C
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
