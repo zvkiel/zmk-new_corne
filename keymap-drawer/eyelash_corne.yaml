@@ -248,9 +248,9 @@ layers:
   '8':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+Alt+$$mdi:arrow-left-bold$$
+  - Ctl+Sft+$$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
-  - Gui+Alt+$$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
