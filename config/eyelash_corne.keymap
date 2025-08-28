@@ -110,7 +110,7 @@
 
         layer_4 {
             bindings = <
-&kp LC(Z)  &kp LC(Y)       &kp HOME      &kp UP_ARROW    &kp END              &kp LG(SLASH)                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(Z)  &kp LC(Y)       &kp HOME      &kp UP_ARROW    &kp END              &kp LC(SLASH)                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &kt LEFT_SHIFT  &kp LC(LEFT)  &kp DOWN_ARROW  &kp LC(RIGHT_ARROW)  &kp LC(V)                &trans  &trans  &trans  &trans  &mo 5   &trans  &trans  &trans  &kp LALT
 &trans     &trans          &trans        &trans          &kp LC(C)            &trans         &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                          &trans          &trans               &kp F6                                           &trans  &trans  &trans
