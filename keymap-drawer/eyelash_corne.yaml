@@ -47,7 +47,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - {t: RETURN, h: '4'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - QWERTY
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
