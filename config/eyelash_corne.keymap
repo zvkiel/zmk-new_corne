@@ -138,7 +138,7 @@
         layer_9 {
             bindings = <
 &kp PIPE      &kp AMPERSAND  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp ASTRK                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp QUESTION  &kp SEMI       &kp COLON          &kp GREATER_THAN       &kp EQUAL         &kp PLUS             &trans  &trans  &trans  &trans  &mo 8   &trans  &trans  &trans  &trans
+&kp QUESTION  &kp SEMI       &kp COLON          &kp GREATER_THAN       &kp EQUAL         &kp PLUS             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans         &trans             &kp AT                 &kp SINGLE_QUOTE  &kp CARET  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                                 &trans                 &trans            &kp F6                                       &mo 9   &trans  &trans
             >;
