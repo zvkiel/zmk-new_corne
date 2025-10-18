@@ -46,7 +46,7 @@ layers:
   - LMETA
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
-  - '6'
+  - RETURN
   - $$mdi:apple-keyboard-control$$
   - LMETA
   NUMBER:
@@ -340,6 +340,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
