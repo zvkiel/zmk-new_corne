@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - Gui+$$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -39,16 +39,16 @@ layers:
   - $$mdi:arrow-down-bold$$
   - J
   - M
-  - {t: ',', s: <}
-  - {t: ., h: NUMBER}
+  - {t: ',', h: NUMBER, s: <}
+  - {t: ., h: SYMBOL}
   - {t: /, h: Fn, s: '?'}
-  - SYMBOL
+  - LEFT WIN
   - Alt+$$mdi:keyboard-space$$
-  - $$mdi:keyboard-tab$$
+  - Gui+$$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - RETURN
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - LEFT WIN
+  - F13
+  - $$mdi:keyboard-tab$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -88,8 +88,8 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFR
   - RGB SPI
-  - RGB BRI
-  - {t: RGB BRD, type: held}
+  - {t: RGB BRI, type: held}
+  - RGB BRD
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
@@ -138,9 +138,9 @@ layers:
   - _
   - +
   - '{'
-  - '}'
+  - {t: '}', type: held}
   - '|'
-  - {t: '~', type: held}
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:keyboard-space$$
   - F6
