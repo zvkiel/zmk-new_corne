@@ -47,7 +47,7 @@ layers:
   - Gui+$$mdi:keyboard-tab$$
   - $$mdi:keyboard-space$$
   - RETURN
-  - F13
+  - F6
   - $$mdi:keyboard-tab$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
