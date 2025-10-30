@@ -296,7 +296,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '5':
   - {t: \, s: '|'}
-  - $
+  - <
   - {t: '[', s: '{'}
   - (
   - '{'
