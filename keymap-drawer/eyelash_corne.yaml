@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - RETURN
   - F6
-  - $$mdi:keyboard-tab$$
+  - {t: '4', h: toggle}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -224,7 +224,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '10'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -241,8 +241,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F6
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
+  - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '8':
@@ -487,6 +487,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
