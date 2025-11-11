@@ -46,7 +46,7 @@ layers:
   - Alt+$$mdi:keyboard-space$$
   - {t: workspaces, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: '8'}
+  - {t: '$$mdi:keyboard-return$$', h: '4'}
   - F6
   - {t: '4', h: toggle}
   NUMBER:
@@ -242,7 +242,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
-  - PgUp
+  - {t: PgUp, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '8':
@@ -269,7 +269,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
