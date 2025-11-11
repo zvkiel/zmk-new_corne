@@ -44,7 +44,7 @@ layers:
   - {t: /, h: Fn, s: '?'}
   - LEFT WIN
   - Alt+$$mdi:keyboard-space$$
-  - Gui+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
   - RETURN
   - F6
