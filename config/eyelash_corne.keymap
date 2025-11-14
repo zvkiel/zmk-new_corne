@@ -117,10 +117,10 @@
 
         layer_10 {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N6  &kp N7  &kp N8  &kp N9     &kp N0             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans   &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &kp COMMA  &kp DOT                                    &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &tog 7  &tog 7                                    &trans  &trans  &trans
             >;
         };
 
@@ -130,6 +130,24 @@
 &trans  &trans  &kp ESCAPE  &trans  &kp RET  &trans                   &trans  &trans  &trans  &trans  &kp LALT  &trans  &trans  &trans  &trans
 &trans  &trans  &trans      &trans  &trans   &trans         &trans            &trans          &trans  &trans    &trans  &trans  &trans  &trans
                             &trans  &trans   &kp BACKSPACE                                    &trans  &trans    &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&kp ESC  &kp TAB    &kp Q  &kp W      &kp E  &kp R                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&mo 7    &kp LSHFT  &kp A  &kp S      &kp D  &kp F                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp LCTRL  &kp Z  &kp X      &kp C  &kp V      &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                           &kp LCTRL  &sl 5  &kp SPACE                                    &tog 0  &trans  &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
     };
