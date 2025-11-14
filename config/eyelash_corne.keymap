@@ -135,10 +135,10 @@
 
         layer_8 {
             bindings = <
-&kp ESC  &kp TAB    &kp Q  &kp W      &kp E  &kp R                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&mo 7    &kp LSHFT  &kp A  &kp S      &kp D  &kp F                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &kp LCTRL  &kp Z  &kp X      &kp C  &kp V      &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                           &kp LCTRL  &sl 5  &kp SPACE                                    &tog 0  &trans  &trans
+&kp ESC    &kp TAB    &kp Q  &kp W   &kp E  &kp R                        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LSHFT  &kp A  &kp S   &kp D  &kp F                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp LCTRL  &kp Z  &kp X   &kp C  &kp V      &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                             &tog 0  &sl 5  &kp SPACE                                    &tog 0  &trans  &trans
             >;
         };
 
