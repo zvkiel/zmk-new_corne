@@ -43,8 +43,8 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - LMETA
   - $$mdi:keyboard-tab$$
+  - {t: '10', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
   - RETURN
   - $$mdi:apple-keyboard-control$$
@@ -273,7 +273,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -289,9 +289,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ',', s: <}
+  - {t: ',', s: <, type: held}
   - {t: ., s: '>'}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '6':
