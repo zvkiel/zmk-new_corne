@@ -108,7 +108,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &kp NUMBER_1  &kp LEFT_PARENTHESIS  &kp SLASH          &kp EXCL                     &trans          &trans  &trans          &trans  &trans  &trans  &trans
+&trans  &trans     &kp NUMBER_1  &kp LEFT_PARENTHESIS  &kp SLASH          &kp UNDER                    &trans          &trans  &trans          &trans  &trans  &trans  &trans
 &trans  &kp COMMA  &kp COMMA     &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES  &kp EQUAL            &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans
 &trans  &trans     &trans        &trans                &trans             &trans     &trans            &trans          &trans  &trans          &trans  &trans  &trans  &trans
                                  &trans                &trans             &kp MINUS                                    &mo 5   &trans          &trans
